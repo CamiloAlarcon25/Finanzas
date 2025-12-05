@@ -36,4 +36,7 @@ El dashboard desarrollado en Power BI facilita la identificación inmediata de p
 #### •	Relación Gasto/Ingreso: A pesar del balance positivo, el Porcentaje Gasto sobre Ingreso es del 91,84%, un valor considerado alto que indica una relación muy ajustada entre los egresos y los ingresos.
 #### •	Tendencia Mensual: Se identifica el mes con mayor poder de ahorro (ej. diciembre, con $1.356.500) y el mes con mayor déficit (ej. octubre, con un balance negativo de $-424.645).
 
+Enlace del dashboard en formato pdf:
+https://github.com/CamiloAlarcon25/Finanzas/blob/main/pbix_final_Finanzas.pdf 
+
 
