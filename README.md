@@ -33,5 +33,5 @@ Posteriormente, se crea una tabla calendario utilizando código DAX para permiti
 El dashboard desarrollado en Power BI facilita la identificación inmediata de patrones financieros:
 #### •	Identificación de Egresos: Se pueden observar las dos categorías que generan el mayor gasto desde abril de 2025 hasta la fecha (ej. "Gasto Extra" y "Gasto Único").
 #### •	Balance General: El balance total acumulado a la fecha es positivo ($1.374.170), con ingresos totales de $16.841.350.
-•	Relación Gasto/Ingreso: A pesar del balance positivo, el Porcentaje Gasto sobre Ingreso es del 91,84%, un valor considerado alto que indica una relación muy ajustada entre los egresos y los ingresos.
-•	Tendencia Mensual: Se identifica el mes con el mayor ahorro (ej. diciembre, con $1.356.500) y el mes con mayor déficit (ej. octubre, con un balance negativo de $-424.645).
+#### •	Relación Gasto/Ingreso: A pesar del balance positivo, el Porcentaje Gasto sobre Ingreso es del 91,84%, un valor considerado alto que indica una relación muy ajustada entre los egresos y los ingresos.
+#### •	Tendencia Mensual: Se identifica el mes con el mayor ahorro (ej. diciembre, con $1.356.500) y el mes con mayor déficit (ej. octubre, con un balance negativo de $-424.645).
