@@ -12,9 +12,9 @@ Además, se identifica el instrumento de pago utilizado para cada transacción (
 
 ### 2. Tecnologías y Herramientas
 Herramienta	Función Principal
-Excel	Almacenamiento inicial de los registros de transacciones.
-Python	Consolidación y unión de múltiples archivos de datos.
-Power BI	Modelado, limpieza (Power Query), cálculo (DAX) y visualización (Dashboard).
+#### Excel	Almacenamiento inicial de los registros de transacciones.
+#### Python	Consolidación y unión de múltiples archivos de datos.
+#### Power BI	Modelado, limpieza (Power Query), cálculo (DAX) y visualización (Dashboard).
 
 ### 3. Desarrollo y Metodología de Datos
 El proyecto inicia con la ingesta de datos provenientes de registros de pagos con tarjetas y efectivo. Inicialmente, cada mes está contenido en un archivo Excel separado (ej. 2025-04.xlsx), con seis columnas clave: Tarea (Descripción), Tipo (Categoría), Valor ($), Estado, Mes y Billetera.
