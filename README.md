@@ -24,10 +24,9 @@
 
 ## 📸 Vista General del Dashboard
 
- *El cuadro de mando permite evaluar de un vistazo el balance neto, la estructura de egresos por categoría y la liquidez histórica del hogar.*
+> *El cuadro de mando permite evaluar de un vistazo el balance neto, la estructura de egresos por categoría y la liquidez histórica del hogar.*
 
 ![Dashboard Principal de Finanzas Personales](Principal.PNG)
-*(Sustituye esta URL cuando subas tu captura principal a la carpeta assets/)*
 
 ---
 
