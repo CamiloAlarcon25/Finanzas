@@ -13,9 +13,9 @@
 
 - [Vista General del Dashboard](#-vista-general-del-dashboard)
 - [El Desafío de Negocio](#-el-desafío-de-negocio)
-- [Arquitectura de Datos y Metodología](#%EF%B8%8F-arquitectura-de-datos-y-metodolog%C3%ADa)
+- [Arquitectura de Datos y Metodología](#arquitectura)
 - [Insights y Hallazgos Clave](#-insights-y-hallazgos-clave)
-- [Vistas Detalladas](#%EF%B8%8F-vistas-detalladas-del-dashboard)
+- [Vistas Detalladas](#vistas)
 - [Recomendaciones y Plan de Acción](#-recomendaciones-de-gestión-financiera)
 - [Recursos del Repositorio](#-recursos-del-repositorio)
 
@@ -40,7 +40,7 @@ El objetivo de este proyecto fue **sistematizar el registro y análisis financie
 
 ---
 
-## 🛠️ Arquitectura de Datos y Metodología
+## <a name="arquitectura"></a>🛠️ Arquitectura de Datos y Metodología
 
 El proyecto implementa un pipeline ETL (Extracción, Transformación y Carga) estructurado en tres etapas:
 
@@ -91,7 +91,7 @@ El proyecto implementa un pipeline ETL (Extracción, Transformación y Carga) es
 
 ---
 
-## 🖼️ Vistas Detalladas del Dashboard
+## <a name="vistas"></a>🖼️ Vistas Detalladas del Dashboard
 
 <table width="100%">
   <tr>
@@ -118,6 +118,6 @@ El proyecto implementa un pipeline ETL (Extracción, Transformación y Carga) es
 
 ## 📂 Recursos del Repositorio
 
-* 📄 **Reporte Completo en PDF:** [Descargar pbix_final_Finanzas.pdf](https://github.com/CamiloAlarcon25/Finanzas/blob/main/pbix_final_Finanzas.pdf)
-* 🐍 **Script de Consolidación:** Código en Python para la unión automática de fuentes Excel.
-* 📊 **Modelo Power BI:** Archivo `.pbix` con medidas DAX y transformaciones en Power Query.
+* 📄 **Reporte Executivo (PDF):** [pbix_final_Finanzas.pdf](https://github.com/CamiloAlarcon25/Finanzas/blob/main/pbix_final_Finanzas.pdf)
+* 🐍 **Script de Consolidación (Python):** [Ver archivo .py](https://github.com/CamiloAlarcon25/Finanzas/blob/main/Unir_archivos_Finanzas.py)
+* 📊 **Dashboard Interactivo (Power BI):** [Descargar archivo .pbix](https://github.com/CamiloAlarcon25/Finanzas/blob/main/pbix_final_Finanzas.pbix)
