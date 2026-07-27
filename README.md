@@ -48,7 +48,7 @@ El proyecto implementa un pipeline ETL (Extracción, Transformación y Carga) es
 
 ```text
 [ Archivos Excel Mensuales ] ──( Python Script )──> [ Dataset Consolidado ] ──( Power Query & DAX )──> [ Dashboard Power BI ]
-
+```
 ---
 
 ### 1. Ingesta y Consolidación (Python)
