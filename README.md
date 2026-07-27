@@ -1,9 +1,4 @@
-# Generate Markdown and an HTML preview or script if needed
-# We will construct a beautifully structured Markdown file and convert it into a crisp PDF reference if needed,
-# or simply output the rich Markdown content.
-# The user wants a clean, executive-level README.md file structure with image placeholders.
-
-markdown_content = """# 📊 Dashboard de Análisis y Visualización de Finanzas Personales
+# 📊 Dashboard de Análisis y Visualización de Finanzas Personales
 
 > **Un enfoque data-driven para la gestión del flujo de caja familiar:** Consolidación de transacciones multicanal, modelado multidimensional y visualización ejecutiva en Power BI para la optimización del ahorro y control del gasto.
 
@@ -21,7 +16,8 @@ markdown_content = """# 📊 Dashboard de Análisis y Visualización de Finanzas
 - [El Desafío de Negocio](#-el-desafío-de-negocio)
 - [Arquitectura de Datos y Metodología](#-arquitectura-de-datos-y-metodología)
 - [Insights y Hallazgos Clave](#-insights-y-hallazgos-clave)
-- [Recomendaciones y Plan de Acción](#-recomendaciones-y-plan-de-acción)
+- [Vistas Detalladas](#-vistas-detalladas-del-dashboard)
+- [Recomendaciones y Plan de Acción](#-recomendaciones-de-gestión-financiera)
 - [Recursos del Repositorio](#-recursos-del-repositorio)
 
 ---
@@ -31,7 +27,7 @@ markdown_content = """# 📊 Dashboard de Análisis y Visualización de Finanzas
 > *El cuadro de mando permite evaluar de un vistazo el balance neto, la estructura de egresos por categoría y la liquidez histórica del hogar.*
 
 ![Dashboard Principal de Finanzas Personales](https://raw.githubusercontent.com/CamiloAlarcon25/Finanzas/main/assets/dashboard_overview.png)
-*Nota: Reemplaza este enlace por la captura de pantalla de la vista principal de tu dashboard en Power BI.*
+*(Sustituye esta URL cuando subas tu captura principal a la carpeta assets/)*
 
 ---
 
@@ -49,3 +45,6 @@ El objetivo de este proyecto fue **sistematizar el registro y análisis financie
 ## 🛠️ Arquitectura de Datos y Metodología
 
 El proyecto implementa un pipeline ETL (Extracción, Transformación y Carga) estructurado en tres etapas:
+
+```text
+[ Archivos Excel Mensuales ] ──( Python Script )──> [ Dataset Consolidado ] ──( Power Query & DAX )──> [ Dashboard Power BI ]
