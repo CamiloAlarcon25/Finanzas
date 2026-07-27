@@ -1,42 +1,50 @@
-# Finanzas
+# 📊 Dashboard de Análisis y Visualización de Finanzas
 
-## Análisis y Visualización de Finanzas Personales
+> **Un enfoque data-driven para la gestión del flujo de caja familiar:** Consolidación de transacciones multicanal, modelado multidimensional y visualización ejecutiva en Power BI para la optimización del ahorro y control del gasto.
 
-### 1. Resumen y Objetivos
-Este proyecto se centra en ordenar y analizar la situación financiera del hogar, evaluando en detalle los flujos de ingresos y gastos. El objetivo principal es identificar las categorías de mayor egreso y proponer estrategias para amortiguar o solucionar dichos gastos sin comprometer la dinámica familiar.
-El análisis se estructura en dos tipos de ingresos (Principal y Secundario), y seis categorías principales de gastos:
-#### •	Gasto Único: Pagos relacionados con gastos fijos (colegiaturas, aranceles, servicios).
-#### •	Gasto Extra: Pagos vinculados al ocio y la recreación familiar.
-#### •	Otros: Mercadería, Bencina, Pasajes y diversas categorías menores.
-Además, se identifica el instrumento de pago utilizado para cada transacción (billeteras B01-B02-B03-B04 o efectivo EFE).
+[![Power BI](https://img.shields.io/badge/Power_BI-F2C94C?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Excel](https://img.shields.io/badge/Excel-1D6F42?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://www.microsoft.com/excel)
+[![Status](https://img.shields.io/badge/Estado-Concluido-brightgreen?style=for-the-badge)]()
 
-### 2. Tecnologías y Herramientas
-Herramienta	Función Principal
-#### Excel:	Almacenamiento inicial de los registros de transacciones.
-#### Python:	Consolidación y unión de múltiples archivos de datos.
-#### Power: BI	Modelado, limpieza (Power Query), cálculo (DAX) y visualización (Dashboard).
+---
 
-### 3. Desarrollo y Metodología de Datos
-El proyecto inicia con la ingesta de datos provenientes de registros de pagos con tarjetas y efectivo. Inicialmente, cada mes está contenido en un archivo Excel separado (ej. 2025-04.xlsx), con seis columnas clave: Tarea (Descripción), Tipo (Categoría), Valor ($), Estado, Mes y Billetera.
+## 📌 Navegación Rápida
+[← Volver al Portafolio Principal](https://camiloalarcon25.github.io/Mi_Portafolio_v1/)
 
-#### A. Consolidación (Python)
-Antes de la visualización, se utiliza un script de Python para automatizar la unión de todos los archivos mensuales en una única tabla de salida (dataset general).
+- [Vista General del Dashboard](#-vista-general-del-dashboard)
+- [El Desafío de Negocio](#-el-desafío-de-negocio)
+- [Arquitectura de Datos y Metodología](#-arquitectura-de-datos-y-metodología)
+- [Insights y Hallazgos Clave](#-insights-y-hallazgos-clave)
+- [Vistas Detalladas](#-vistas-detalladas-del-dashboard)
+- [Recomendaciones y Plan de Acción](#-recomendaciones-de-gestión-financiera)
+- [Recursos del Repositorio](#-recursos-del-repositorio)
 
-#### B. Transformación y Modelado (Power BI)
-La tabla general se importa a Power BI y se somete a un proceso de limpieza en Power Query, que incluye:
-##### •	Depuración de registros en blanco o detalles irrelevantes.
-##### •	Ajuste y validación del tipo de dato de las columnas.
-##### •	Cambio de nombres de categorías para facilitar la interpretación en la visualización.
-Posteriormente, se crea una tabla calendario utilizando código DAX para permitir filtros temporales (año, mes, día) y un análisis de tendencias más robusto.
+---
 
-### 4. Resultados y Análisis Clave
-El dashboard desarrollado en Power BI facilita la identificación inmediata de patrones financieros:
-#### •	Identificación de Egresos: Se pueden observar las dos categorías que generan el mayor gasto desde abril de 2025 hasta la fecha (ej. "Gasto Extra" y "Gasto Único").
-#### •	Balance General: El balance total acumulado a la fecha es positivo ($1.374.170), con ingresos totales de $16.841.350.
-#### •	Relación Gasto/Ingreso: A pesar del balance positivo, el Porcentaje Gasto sobre Ingreso es del 91,84%, un valor considerado alto que indica una relación muy ajustada entre los egresos y los ingresos.
-#### •	Tendencia Mensual: Se identifica el mes con mayor poder de ahorro (ej. diciembre, con $1.356.500) y el mes con mayor déficit (ej. octubre, con un balance negativo de $-424.645).
+## 📸 Vista General del Dashboard
 
-Enlace del dashboard en formato pdf:
-https://github.com/CamiloAlarcon25/Finanzas/blob/main/pbix_final_Finanzas.pdf 
+> *El cuadro de mando permite evaluar de un vistazo el balance neto, la estructura de egresos por categoría y la liquidez histórica del hogar.*
 
+![Dashboard Principal de Finanzas Personales](https://raw.githubusercontent.com/CamiloAlarcon25/Finanzas/main/assets/dashboard_overview.png)
+*(Reemplaza la URL de arriba por la captura de pantalla de la vista principal de tu dashboard)*
 
+---
+
+## 🎯 El Desafío de Negocio
+
+El control financiero familiar suele verse afectado por la dispersión de transacciones en múltiples billeteras físicas y digitales, dificultando la visibilidad del flujo de caja real. 
+
+El objetivo de este proyecto fue **sistematizar el registro y análisis financiero de un hogar**, estructurando fuentes heterogéneas para responder a preguntas críticas de gestión:
+1. **¿Cuál es la tasa real de gasto sobre el ingreso acumulado?**
+2. **¿Qué categorías de egreso comprometen la capacidad de ahorro mensual?**
+3. **¿Cómo varían los saldos según la estacionalidad del año?**
+
+---
+
+## 🛠️ Arquitectura de Datos y Metodología
+
+El proyecto implementa un pipeline ETL (Extracción, Transformación y Carga) estructurado en tres etapas:
+
+```text
+[ Archivos Excel Mensuales ] ──( Python Script )──> [ Dataset Consolidado ] ──( Power Query & DAX )──> [ Dashboard Power BI ]
