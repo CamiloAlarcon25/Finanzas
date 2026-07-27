@@ -98,11 +98,11 @@ El proyecto implementa un pipeline ETL (Extracción, Transformación y Carga) es
   <tr>
     <td width="50%" align="center">
       <b>Análisis de Gastos por Categoría y Canal</b><br><br>
-      <img src="https://raw.githubusercontent.com/CamiloAlarcon25/Finanzas/main/assets/categoria_gastos.png" alt="Categorías de Gastos" width="100%"/>
+      <img src="Cat_Gastos.PNG" alt="Categorías de Gastos" width="100%"/>
     </td>
     <td width="50%" align="center">
       <b>Evolución Temporal e Histórico Mensual</b><br><br>
-      <img src="https://raw.githubusercontent.com/CamiloAlarcon25/Finanzas/main/assets/tendencia_mensual.png" alt="Tendencia Mensual" width="100%"/>
+      <img src="Bal_Mensual.PNG" alt="Tendencia Mensual" width="100%"/>
     </td>
   </tr>
 </table>
