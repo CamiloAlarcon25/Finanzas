@@ -1,4 +1,4 @@
-# 📊 Dashboard de Análisis y Visualización de Finanzas Personales
+# 📊 Dashboard de Análisis y Visualización de Finanzas
 
 > **Un enfoque data-driven para la gestión del flujo de caja familiar:** Consolidación de transacciones multicanal, modelado multidimensional y visualización ejecutiva en Power BI para la optimización del ahorro y control del gasto.
 
