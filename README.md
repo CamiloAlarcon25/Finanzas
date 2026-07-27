@@ -13,9 +13,9 @@
 
 - [Vista General del Dashboard](#-vista-general-del-dashboard)
 - [El Desafío de Negocio](#-el-desafío-de-negocio)
-- [Arquitectura de Datos y Metodología](#arquitectura-de-datos-y-metodología)
+- [Arquitectura de Datos y Metodología](#%EF%B8%8F-arquitectura-de-datos-y-metodolog%C3%ADa)
 - [Insights y Hallazgos Clave](#-insights-y-hallazgos-clave)
-- [Vistas Detalladas del Dashboard](#vistas-detalladas-del-dashboard)
+- [Vistas Detalladas](#%EF%B8%8F-vistas-detalladas-del-dashboard)
 - [Recomendaciones y Plan de Acción](#-recomendaciones-de-gestión-financiera)
 - [Recursos del Repositorio](#-recursos-del-repositorio)
 
