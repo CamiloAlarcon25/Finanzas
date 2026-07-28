@@ -1,4 +1,4 @@
-# 📊 Dashboard de Análisis y Visualización de Finanzas
+# Dashboard de Análisis y Visualización de Finanzas
 
 > **Un enfoque data-driven para la gestión del flujo de caja familiar:** Consolidación de transacciones multicanal, modelado multidimensional y visualización ejecutiva en Power BI para la optimización del ahorro y control del gasto.
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Navegación Rápida
+## Navegación Rápida
 [← Volver al Portafolio Principal](https://camiloalarcon25.github.io/Mi_Portafolio_v1/)
 
 - [Vista General del Dashboard](#-vista-general-del-dashboard)
@@ -21,7 +21,7 @@
 
 ---
 
-## 📸 Vista General del Dashboard
+## Vista General del Dashboard
 
 > *El cuadro de mando permite evaluar de un vistazo el balance neto, la estructura de egresos por categoría y la liquidez histórica del hogar.*
 
@@ -29,7 +29,7 @@
 
 ---
 
-## 🎯 El Desafío de Negocio
+## El Desafío de Negocio
 
 El control financiero familiar suele verse afectado por la dispersión de transacciones en múltiples billeteras físicas y digitales, dificultando la visibilidad del flujo de caja real. 
 
@@ -40,7 +40,7 @@ El objetivo de este proyecto fue **sistematizar el registro y análisis financie
 
 ---
 
-## <a name="arquitectura"></a>🛠️ Arquitectura de Datos y Metodología
+## <a name="arquitectura"></a>Arquitectura de Datos y Metodología
 
 El proyecto implementa un pipeline ETL (Extracción, Transformación y Carga) estructurado en tres etapas:
 
@@ -74,7 +74,7 @@ El proyecto implementa un pipeline ETL (Extracción, Transformación y Carga) es
 
 ---
 
-## 📈 Insights y Hallazgos Clave
+## Insights y Hallazgos Clave
 
 | Métrica Clave | Valor Registrado | Evaluación / Status |
 | :--- | :--- | :--- |
@@ -84,14 +84,14 @@ El proyecto implementa un pipeline ETL (Extracción, Transformación y Carga) es
 | **Mes de Mayor Ahorro** | Diciembre (`+$1.356.500`) | Impacto por ingresos estacionales/secundarios |
 | **Mes de Mayor Déficit** | Octubre (`-$424.645`) | Pico atípico de egresos fijos/extraordinarios |
 
-### 💡 Principales Conclusiones
+### Principales Conclusiones
 
 * **Relación Ingreso/Gasto Ajustada:** A pesar de registrar un balance superavitario de `$1.374.170`, destinar el **91,84%** de los ingresos a egresos deja un colchón financiero reducido ante contingencias.
 * **Concentración del Egreso:** Las categorías `Gasto Único` y `Gasto Extra` representan la mayor proporción del presupuesto, siendo `Gasto Extra` la variable con mayor potencial de optimización a corto plazo.
 
 ---
 
-## <a name="vistas"></a>🖼️ Vistas Detalladas del Dashboard
+## <a name="vistas"></a>Vistas Detalladas del Dashboard
 
 <table width="100%">
   <tr>
@@ -108,7 +108,7 @@ El proyecto implementa un pipeline ETL (Extracción, Transformación y Carga) es
 
 ---
 
-## 💡 Recomendaciones de Gestión Financiera
+## Recomendaciones de Gestión Financiera
 
 1. **Ajuste en la Categoría "Gasto Extra":** Establecer un techo presupuestario mensual para reducir la tasa global de egreso del **91,84% al 80%**, destinando la diferencia a un fondo de reserva.
 2. **Estrategia de Amortiguación Temporal:** Planificar el déficit recurrente observado en meses de alta carga (como octubre) mediante el traspaso de excedentes generados en meses de mayor ahorro (como diciembre).
@@ -116,8 +116,8 @@ El proyecto implementa un pipeline ETL (Extracción, Transformación y Carga) es
 
 ---
 
-## 📂 Recursos del Repositorio
+## Recursos del Repositorio
 
-* 📄 **Reporte Executivo (PDF):** [pbix_final_Finanzas.pdf](https://github.com/CamiloAlarcon25/Finanzas/blob/main/pbix_final_Finanzas.pdf)
-* 🐍 **Script de Consolidación (Python):** [Ver archivo .py](https://github.com/CamiloAlarcon25/Finanzas/blob/main/Unir_archivos_Finanzas.py)
-* 📊 **Dashboard Interactivo (Power BI):** [Descargar archivo .pbix](https://github.com/CamiloAlarcon25/Finanzas/blob/main/pbix_final_Finanzas.pbix)
+* **Reporte Executivo (PDF):** [pbix_final_Finanzas.pdf](https://github.com/CamiloAlarcon25/Finanzas/blob/main/pbix_final_Finanzas.pdf)
+* **Script de Consolidación (Python):** [Ver archivo .py](https://github.com/CamiloAlarcon25/Finanzas/blob/main/Unir_archivos_Finanzas.py)
+* **Dashboard Interactivo (Power BI):** [Descargar archivo .pbix](https://github.com/CamiloAlarcon25/Finanzas/blob/main/pbix_final_Finanzas.pbix)
