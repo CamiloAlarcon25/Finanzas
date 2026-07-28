@@ -11,13 +11,13 @@
 ## Navegación Rápida
 [← Volver al Portafolio Principal](https://camiloalarcon25.github.io/Mi_Portafolio_v1/)
 
-- [Vista General del Dashboard](#-vista-general-del-dashboard)
-- [El Desafío de Negocio](#-el-desafío-de-negocio)
+- [Vista General del Dashboard](#vista-general-del-dashboard)
+- [El Desafío de Negocio](#el-desafío-de-negocio)
 - [Arquitectura de Datos y Metodología](#arquitectura)
-- [Insights y Hallazgos Clave](#-insights-y-hallazgos-clave)
+- [Insights y Hallazgos Clave](#insights-y-hallazgos-clave)
 - [Vistas Detalladas](#vistas)
-- [Recomendaciones y Plan de Acción](#-recomendaciones-de-gestión-financiera)
-- [Recursos del Repositorio](#-recursos-del-repositorio)
+- [Recomendaciones y Plan de Acción](#recomendaciones-de-gestión-financiera)
+- [Recursos del Repositorio](#recursos-del-repositorio)
 
 ---
 
